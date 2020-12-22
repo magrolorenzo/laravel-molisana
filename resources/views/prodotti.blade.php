@@ -13,9 +13,11 @@
                         <h2>
                             {{$prodotto["titolo"]}}
                         </h2>
-                        <p>
-                            {{$prodotto["descrizione"]}}
-                        </p>
+                        <div class="description-container">
+                            <p>
+                                {{$prodotto["descrizione"]}}
+                            </p>
+                        </div>
                     </div>
                 </div>
             @endforeach

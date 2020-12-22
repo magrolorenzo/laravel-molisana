@@ -97,7 +97,6 @@ header .container .navbar-container nav ul li a {
 #prodotti-section .container .card-prodotto {
   width: 33%;
   position: relative;
-  overflow-y: hidden;
 }
 
 #prodotti-section .container .card-prodotto img {
@@ -111,16 +110,20 @@ header .container .navbar-container nav ul li a {
   height: 100%;
   top: 0;
   left: 0;
-  padding: 10px;
+  padding: 20px;
 }
 
-#prodotti-section .container .card-prodotto .overlay p {
+#prodotti-section .container .card-prodotto .overlay .description-container {
+  overflow: hidden;
+}
+
+#prodotti-section .container .card-prodotto .overlay .description-container p {
   font-size: 15px;
 }
 
 #prodotti-section .container .card-prodotto:hover .overlay {
   display: block;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #news-section {
