@@ -1,4 +1,12 @@
 footer{
-    color: red;
-    background-image: url("../../../public/images/footer-montagne-bottom.jpg");
+    height: 850px;
+    background-image: url($footer-bg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-top: 1px solid lightgrey;
+
+    .container{
+        width: 80%;
+        margin: auto;
+    }
 }
