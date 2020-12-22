@@ -1,3 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  height: 330px;
+  border-bottom: 1px solid lightgrey;
+}
+
+header .container {
+  height: 100%;
+  width: 375px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header .container .logo-container {
+  padding-top: 50px;
+  text-align: center;
+}
+
+header .container .navbar-container {
+  height: 80px;
+}
+
+header .container .navbar-container nav {
+  height: 100%;
+}
+
+header .container .navbar-container nav ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header .container .navbar-container nav ul li {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .container .navbar-container nav ul li:hover {
+  background-color: #b3e5fc;
+}
+
+header .container .navbar-container nav ul li a {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
 footer {
   color: red;
   background-image: url(/images/footer-montagne-bottom.jpg?1dcd1a6e532195900c88406fef6f8f12);
