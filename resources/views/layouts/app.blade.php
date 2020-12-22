@@ -6,13 +6,15 @@
         <title>Laravel</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-        @yield('content')
-        <div class="flex-center position-ref full-height">
-
-
-        </div>
-
+        @include('partials.header')
+        <main>
+            <div class="flex-center position-ref full-height">
+                @yield('content')
+            </div>
+        </main>
+        @include('partials.footer')
     </body>
 </html>
